@@ -43,7 +43,7 @@ main {
   );
   border-radius: 2rem;
   z-index: 2;
-  backdrop-filter: blur(2rem);
+  backdrop-filter: blur(1rem);
   display: flex;
 }
 .circle1,
@@ -84,16 +84,12 @@ main {
 }
 .link {
   display: flex;
-  margin: 2rem 0rem;
-  padding: 1rem 5rem;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
   align-items: center;
 }
 .link h2 {
   padding: 0rem 2rem;
-}
-
-.games {
-  flex: 2;
 }
 
 .pro {
@@ -117,7 +113,7 @@ main {
 
 /* GAMES */
 .status {
-  margin-bottom: 3rem;
+  margin-bottom: 10px;
 }
 
 .status input {
@@ -133,7 +129,8 @@ main {
 }
 
 .games {
-  margin: 5rem;
+  flex: 2;
+  margin: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -147,8 +144,8 @@ main {
     rgba(255, 255, 255, 0.5)
   );
   border-radius: 1rem;
-  margin: 2rem 0rem;
-  padding: 2rem;
+  margin: 25px 0px;
+  padding: 20px;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
 }
@@ -178,6 +175,6 @@ main {
 .percentage {
   font-weight: bold;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
